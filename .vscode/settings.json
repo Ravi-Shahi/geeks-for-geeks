@@ -1,9 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ],
-    "java.project.outputPath": "Basics\\compiled",
-    "java.project.sourcePaths": [
-        "Basics"
-    ]
-}
