@@ -1,8 +1,17 @@
 #include<iostream>
 using namespace std;
 //jump statement: continue, break, goto and return
-
+void test(){
+    int a =6,b=4,c=10;
+    int d; 
+    d = a,b,c; // 6
+    cout<<"D: "<<d<<endl;
+    int e;
+    e = (a,b,c); //6
+    cout<<"E: "<<d<<endl;
+}
 int main(){
+    test();
 if(true){
 label1:
     cout<<"label"<<endl; // once it is printed program start execution from here 
