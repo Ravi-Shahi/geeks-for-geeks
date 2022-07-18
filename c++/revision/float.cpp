@@ -13,5 +13,6 @@ int main(){
     /*when using fixed it prints digits in fixed notation, 
     digits after point = parameter to function setprecision*/
     cout<<"After precision and fixed: "<<setprecision(2)<<fixed<<num<<endl;
+    cout<<"fixed: "<<fixed<<setprecision(2)<<num<<endl;
 
 }
